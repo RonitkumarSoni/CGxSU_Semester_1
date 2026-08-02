@@ -50,7 +50,7 @@
   
   4.Domain: The set of valid values for an attribute.
 
-### Keys
+### Keys (6 types)
 
   1.Super Key: Any attribute or combination of attributes that uniquely identifies a record.
   
