@@ -1058,7 +1058,9 @@ Every cell contains exactly one value.
 - Must satisfy 1NF.
   
 There should not be any partial dependency
+
 1.All non - prime attributes must be fully dependent on primary key
+
 2.Non Prime attribute can not depend on the part of Primary Key
 
 
@@ -1109,9 +1111,12 @@ Now every non-key column depends on the entire key.
 
 ## Rule
 
--1. Must satisfy 2NF.
+1. Must satisfy 2NF.
+
 2. No Transitivity dependency exist
-      Non prime attribute should not find the non prime attribute
+
+3.Non prime attribute should not find the non prime attribute
+
 Example
 
 Wrong
