@@ -1056,9 +1056,11 @@ Every cell contains exactly one value.
 ## Rule
 
 - Must satisfy 1NF.
-- Remove partial dependency.
+  
+There should not be any partial dependency
+1.All non - prime attributes must be fully dependent on primary key
+2.Non Prime attribute can not depend on the part of Primary Key
 
-Partial dependency occurs when a non-key attribute depends on only part of a composite key.
 
 Example
 
@@ -1107,9 +1109,9 @@ Now every non-key column depends on the entire key.
 
 ## Rule
 
-- Must satisfy 2NF.
-- Remove transitive dependency.
-
+-1. Must satisfy 2NF.
+2. No Transitivity dependency exist
+      Non prime attribute should not find the non prime attribute
 Example
 
 Wrong
